@@ -8,9 +8,6 @@
 #include "GameFramework/Actor.h"
 #include "HitEffectActor.generated.h"
 
-class UNiagaraComponent;
-class UNiagaraSystem;
-
 UCLASS()
 class TARGETSHOOT_API AHitEffectActor : public AActor, public IPoolInterface
 {
@@ -33,12 +30,12 @@ protected:
 	virtual void BeginPlay() override;
 
 	UFUNCTION()
-	void OnSystemFinished(UNiagaraComponent* PSystem);
+	void OnSystemFinished(UParticleSystemComponent* PSystem);
 
 	UPROPERTY(Transient)
 	ATargetShootGameModeBase* GameMode;
 	
 	UPROPERTY(VisibleAnywhere)
-	UNiagaraComponent* NiagaraComponent;
+	UParticleSystemComponent* ParticleSystemComponent;
 	
 };

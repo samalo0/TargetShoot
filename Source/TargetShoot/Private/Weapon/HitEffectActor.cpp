@@ -2,7 +2,7 @@
 
 #include "Weapon/HitEffectActor.h"
 
-#include "NiagaraComponent.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "Core/TargetShootGameModeBase.h"
 
 AHitEffectActor::AHitEffectActor()
@@ -10,18 +10,18 @@ AHitEffectActor::AHitEffectActor()
 	PrimaryActorTick.bCanEverTick = false;
 	PrimaryActorTick.bStartWithTickEnabled = false;
 
-	NiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("NiagaraComponent"));
-	SetRootComponent(NiagaraComponent);
+	ParticleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParticleSystemComponent"));
+	SetRootComponent(ParticleSystemComponent);
 }
 
 void AHitEffectActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	NiagaraComponent->OnSystemFinished.AddDynamic(this, &AHitEffectActor::OnSystemFinished);
+	ParticleSystemComponent->OnSystemFinished.AddDynamic(this, &AHitEffectActor::OnSystemFinished);
 }
 
-void AHitEffectActor::OnSystemFinished(UNiagaraComponent* PSystem)
+void AHitEffectActor::OnSystemFinished(UParticleSystemComponent* PSystem)
 {
 	PoolInterface_DestroyOrReturnToPool();
 }
@@ -54,11 +54,11 @@ void AHitEffectActor::PoolInterface_Initialize()
 void AHitEffectActor::PoolInterface_OnPullFromPool(const FTransform Transform)
 {
 	SetActorTransform(Transform);
-	NiagaraComponent->Activate(true);
+	ParticleSystemComponent->Activate(true);
 }
 
 void AHitEffectActor::PoolInterface_OnReturnToPool()
 {
-	NiagaraComponent->Deactivate();
+	ParticleSystemComponent->Deactivate();
 }
 

@@ -3,7 +3,6 @@
 #include "Weapon/ProjectileActor.h"
 
 #include "Engine/DataTable.h"
-#include "NiagaraComponent.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/StaticMeshComponent.h"

@@ -5,7 +5,7 @@
 #include "Animation/AnimSequence.h"
 #include "Components/ArrowComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "NiagaraComponent.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "Weapon/ProjectileActor.h"
 #include "Components/SkeletalMeshComponent.h"
 
@@ -25,9 +25,9 @@ AWeaponActor::AWeaponActor()
 
 #endif
 	
-	NiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("NiagaraComponent"));
-	NiagaraComponent->SetupAttachment(GetRootComponent());
-	NiagaraComponent->SetAutoActivate(false);
+	ParticleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParticleSystemComponent"));
+	ParticleSystemComponent->SetupAttachment(GetRootComponent());
+	ParticleSystemComponent->SetAutoActivate(false);
 }
 
 void AWeaponActor::BeginPlay()
@@ -59,7 +59,7 @@ void AWeaponActor::Fire() const
 	GameMode->PullActorFromPool(ProjectileClass, ProjectileSpawnRelativeTransform * GetActorTransform());
 
 	UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	NiagaraComponent->Activate(true);
+	ParticleSystemComponent->Activate(true);
 
 	SkeletalMeshComponent->PlayAnimation(FireAnimation, false);
 }

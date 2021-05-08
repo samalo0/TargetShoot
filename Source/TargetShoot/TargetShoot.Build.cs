@@ -11,7 +11,7 @@ public class TargetShoot : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "HeadMountedDisplay", "Niagara" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "HeadMountedDisplay" });
 
 		if(Target.Platform == UnrealTargetPlatform.Android)
 		{

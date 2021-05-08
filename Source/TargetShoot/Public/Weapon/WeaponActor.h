@@ -9,7 +9,6 @@
 class UAnimSequence;
 class ATargetShootGameModeBase;
 class AProjectileActor;
-class UNiagaraComponent;
 class UArrowComponent;
 
 UCLASS(HideCategories = (Tick, Rendering, Input, Actor, LOD))
@@ -44,7 +43,7 @@ protected:
 	ATargetShootGameModeBase* GameMode;
 
 	UPROPERTY(VisibleAnywhere)
-	UNiagaraComponent* NiagaraComponent;
+	UParticleSystemComponent* ParticleSystemComponent;
 	
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<AProjectileActor> ProjectileClass;
