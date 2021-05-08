@@ -335,57 +335,57 @@
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 334
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 335
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 336
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Maps/Default_P_BuiltData.uasset" 337
-"../../Plugins/FX/Niagara/Content/VectorFields/Assets/TilingCurl16.uasset" 338
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset" 339
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCurlNoiseQuality.uasset" 340
-"../../Plugins/FX/Niagara/Content/VectorFields/Assets/TilingCurl64.uasset" 341
-"../../Plugins/FX/Niagara/Content/VectorFields/Assets/TilingCurl32.uasset" 342
-"../../Plugins/FX/Niagara/Content/Functions/FindAngleBetweenVectors.uasset" 343
-"../../Plugins/FX/Niagara/Content/Functions/V2/RemapRange.uasset" 344
-"../../Plugins/FX/Niagara/Content/Functions/V2/ConeMask.uasset" 345
-"../../Plugins/FX/Niagara/Content/Functions/Masks/ConeMask.uasset" 346
-"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/CurlNoiseForce.uasset" 347
-"../../Plugins/FX/Niagara/Content/Functions/RandomPointInBox.uasset" 348
-"../../Plugins/FX/Niagara/Content/Functions/IsolateLongestVectorComponent.uasset" 349
-"../../Plugins/FX/Niagara/Content/Functions/Rotation/RotateAngleOnAxis.uasset" 350
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/BoxLocation.uasset" 351
-"../../Plugins/FX/Niagara/Content/DynamicInputs/TypeConversions/Vector2DFromFloat.uasset" 352
-"../../Plugins/FX/Niagara/Content/DynamicInputs/Angles/NormalizedAngleToDegrees.uasset" 353
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/FX/NE_DustMotes.uasset" 354
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/FX/NS_Dust_System.uasset" 355
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_RightWall.uasset" 356
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_LeftWall.uasset" 357
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_FrontWall.uasset" 358
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_Floor.uasset" 359
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_Ceiling.uasset" 360
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_BackStopBottom.uasset" 361
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_BackStop.uasset" 362
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_BackAttachment.uasset" 363
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble9.uasset" 364
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble8.uasset" 365
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble7.uasset" 366
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble6.uasset" 367
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble5.uasset" 368
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble4.uasset" 369
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble3.uasset" 370
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble10.uasset" 371
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble1.uasset" 372
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/T_StoneTIle_R.uasset" 373
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/T_StoneTIle_N.uasset" 374
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/T_StoneTile_D.uasset" 375
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/PhysicalMaterial/PM_Concrete.uasset" 376
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/MI_StoneTile_Ceiling.uasset" 377
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/MI_StoneTile.uasset" 378
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/PhysicalMaterial/PM_Wood.uasset" 379
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/T_Plywood_R.uasset" 380
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/T_Plywood_N.uasset" 381
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/T_Plywood_D.uasset" 382
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/MI_Plywood.uasset" 383
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/T_CastConcrete_R.uasset" 384
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/T_CastConcrete_N.uasset" 385
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/T_CastConcrete_D.uasset" 386
-"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/MI_CastConcrete.uasset" 387
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_RightWall.uasset" 337
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_LeftWall.uasset" 338
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_FrontWall.uasset" 339
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_Floor.uasset" 340
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_Ceiling.uasset" 341
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_BackStopBottom.uasset" 342
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_BackStop.uasset" 343
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/GunRange/S_GunRange_BackAttachment.uasset" 344
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble9.uasset" 345
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble7.uasset" 346
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble6.uasset" 347
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble5.uasset" 348
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble4.uasset" 349
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble3.uasset" 350
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble10.uasset" 351
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble1.uasset" 352
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/T_StoneTIle_R.uasset" 353
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/T_StoneTIle_N.uasset" 354
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/T_StoneTile_D.uasset" 355
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/PhysicalMaterial/PM_Concrete.uasset" 356
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/MI_StoneTile_Ceiling.uasset" 357
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/StoneTile/MI_StoneTile.uasset" 358
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/PhysicalMaterial/PM_Wood.uasset" 359
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/T_Plywood_R.uasset" 360
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/T_Plywood_N.uasset" 361
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/T_Plywood_D.uasset" 362
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/Plywood/MI_Plywood.uasset" 363
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/T_CastConcrete_R.uasset" 364
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/T_CastConcrete_N.uasset" 365
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/T_CastConcrete_D.uasset" 366
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/CastConcrete/MI_CastConcrete.uasset" 367
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Maps/Default_P_BuiltData.uasset" 368
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Models/CementRubble/S_CementRubble8.uasset" 369
+"../../Plugins/FX/Niagara/Content/VectorFields/Assets/TilingCurl16.uasset" 370
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset" 371
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCurlNoiseQuality.uasset" 372
+"../../Plugins/FX/Niagara/Content/VectorFields/Assets/TilingCurl64.uasset" 373
+"../../Plugins/FX/Niagara/Content/VectorFields/Assets/TilingCurl32.uasset" 374
+"../../Plugins/FX/Niagara/Content/Functions/FindAngleBetweenVectors.uasset" 375
+"../../Plugins/FX/Niagara/Content/Functions/V2/RemapRange.uasset" 376
+"../../Plugins/FX/Niagara/Content/Functions/V2/ConeMask.uasset" 377
+"../../Plugins/FX/Niagara/Content/Functions/Masks/ConeMask.uasset" 378
+"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/CurlNoiseForce.uasset" 379
+"../../Plugins/FX/Niagara/Content/Functions/RandomPointInBox.uasset" 380
+"../../Plugins/FX/Niagara/Content/Functions/IsolateLongestVectorComponent.uasset" 381
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/RotateAngleOnAxis.uasset" 382
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/BoxLocation.uasset" 383
+"../../Plugins/FX/Niagara/Content/DynamicInputs/TypeConversions/Vector2DFromFloat.uasset" 384
+"../../Plugins/FX/Niagara/Content/DynamicInputs/Angles/NormalizedAngleToDegrees.uasset" 385
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/FX/NE_DustMotes.uasset" 386
+"C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/FX/NS_Dust_System.uasset" 387
 "C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/PhysicalMaterial/PM_Metal.uasset" 388
 "C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/MetalPainted/T_MetalPainted_R.uasset" 389
 "C:/Users/smaloney/Documents/Unreal Projects/TargetShoot/Content/TargetShoot/Materials/MetalPainted/T_MetalPainted_N.uasset" 390

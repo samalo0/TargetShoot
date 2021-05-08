@@ -1,6 +1,7 @@
 // Copyright Stephen Maloney, 2020
 
 using UnrealBuildTool;
+using System.IO;
 
 public class TargetShoot : ModuleRules
 {
@@ -12,6 +13,12 @@ public class TargetShoot : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "HeadMountedDisplay", "Niagara" });
 
+		if(Target.Platform == UnrealTargetPlatform.Android)
+		{
+			var manifestFile = Path.Combine(ModuleDirectory, "AndroidSanitizePermissions_UPL.xml");
+			AdditionalPropertiesForReceipt.Add("AndroidPlugin", manifestFile);
+		}
+		
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
