@@ -2,22 +2,17 @@
 
 #include "Environment/ScoreDisplayActor.h"
 
-#include "Components/TextRenderComponent.h"
 #include "Core/TargetShootGameModeBase.h"
+#include "Components/WidgetComponent.h"
+#include "Environment/ScoreUserWidget.h"
 
 AScoreDisplayActor::AScoreDisplayActor()
 {
 	PrimaryActorTick.bCanEverTick = false;
 	PrimaryActorTick.bStartWithTickEnabled = false;
 
-	ScoreTextRenderComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("ScoreTextRenderComponent"));
-	SetRootComponent(ScoreTextRenderComponent);
-
-	ShotsFiredTextRenderComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("ShotsFiredTextRenderComponent"));
-	ShotsFiredTextRenderComponent->SetupAttachment(GetRootComponent());
-
-	AverageTextRenderComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("AverageTextRenderComponent"));
-	AverageTextRenderComponent->SetupAttachment(GetRootComponent());
+	WidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("WidgetComponent"));
+	SetRootComponent(WidgetComponent);
 }
 
 void AScoreDisplayActor::BeginPlay()
@@ -37,7 +32,11 @@ void AScoreDisplayActor::BeginPlay()
 
 void AScoreDisplayActor::OnScoreUpdate(const int32 Score, const int32 NumberOfShotsFired)
 {
-	ScoreTextRenderComponent->SetText(FText::AsCultureInvariant(FString::Printf(TEXT("Score: %d"), Score)));
-	ShotsFiredTextRenderComponent->SetText( FText::AsCultureInvariant(FString::Printf(TEXT("Shots Fired: %d"), NumberOfShotsFired)));
-	AverageTextRenderComponent->SetText(FText::AsCultureInvariant(FString::Printf(TEXT("Average: %f"), static_cast<float>(Score)/NumberOfShotsFired)));
+	UScoreUserWidget* ScoreWidget = Cast<UScoreUserWidget>(WidgetComponent->GetWidget());
+	if(IsValid(ScoreWidget))
+	{
+		ScoreWidget->SetScoreText(FString::Printf(TEXT("Score: %d"), Score));
+		ScoreWidget->SetShotsFiredText(FString::Printf(TEXT("Shots Fired: %d"), NumberOfShotsFired));
+		ScoreWidget->SetAverageText(FString::Printf(TEXT("Average: %f"), static_cast<float>(Score)/NumberOfShotsFired));	
+	}
 }

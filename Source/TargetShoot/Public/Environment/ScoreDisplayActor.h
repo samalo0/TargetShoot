@@ -7,6 +7,7 @@
 #include "ScoreDisplayActor.generated.h"
 
 class UTextRenderComponent;
+class UWidgetComponent;
 
 UCLASS()
 class TARGETSHOOT_API AScoreDisplayActor : public AActor
@@ -26,12 +27,6 @@ protected:
 	void OnScoreUpdate(int32 Score, int32 NumberOfShotsFired);
 
 	UPROPERTY(VisibleAnywhere)
-	UTextRenderComponent* AverageTextRenderComponent;
-	
-	UPROPERTY(VisibleAnywhere)
-	UTextRenderComponent* ScoreTextRenderComponent;
-
-	UPROPERTY(VisibleAnywhere)
-	UTextRenderComponent* ShotsFiredTextRenderComponent;
+	UWidgetComponent* WidgetComponent;
 	
 };
